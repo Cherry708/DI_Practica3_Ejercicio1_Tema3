@@ -67,7 +67,9 @@ class SecondFragment : Fragment() {
         recView.adapter = adaptador
         recView.layoutManager = GridLayoutManager(context, 2)
 
-        adaptador.onClick = {}
+        adaptador.onClick = {
+
+        }
     }
 
     override fun onDestroyView() {
